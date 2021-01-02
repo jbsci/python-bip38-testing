@@ -81,7 +81,7 @@ def bip38_decrypt(encrypted_privkey,passphrase):
 
 
 if __name__ == '__main__':
-    iparams = sys.argv
+    inparams = sys.argv
     if len(sys.argv) != 4:
         print("Error: Please specify the following 3 parameters: encrypt|decrypt <addr> <passphrase>")
         sys.exit(1)
