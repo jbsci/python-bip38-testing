@@ -3,7 +3,7 @@
 from Crypto.Cipher import AES
 import scrypt
 import hashlib
-from pybitcointools import *
+from bitcoin import *
 import binascii
 import base58
 import sys
